@@ -12,9 +12,4 @@ services:
   db:
     image : postgres
     restart: always
-    environment:
-      CSV_FILENAME : data.csv
-      POSTGRES_PASSWORD : root
-      POSTGRES_USER : root
-      POSTGRES_DB : database
 
